@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DiplayBoardComponentComponent } from './diplay-board-component.component';
+import {DisplayBoardComponentComponent} from './diplay-board-component.component';
 
 describe('DiplayBoardComponentComponent', () => {
-  let component: DiplayBoardComponentComponent;
-  let fixture: ComponentFixture<DiplayBoardComponentComponent>;
+  let component: DisplayBoardComponentComponent;
+  let fixture: ComponentFixture<DisplayBoardComponentComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [DiplayBoardComponentComponent]
+      declarations: [DisplayBoardComponentComponent]
     });
-    fixture = TestBed.createComponent(DiplayBoardComponentComponent);
+    fixture = TestBed.createComponent(DisplayBoardComponentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

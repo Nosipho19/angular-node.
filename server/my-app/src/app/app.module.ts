@@ -6,19 +6,15 @@ import { HttpClientModule } from '@angular/common/http'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { UserComponentComponent } from './user-component/user-component.component';
-import { DisplayBoardComponentComponent } from './display-board-component/display-board-component.component';
-import { HeaderComponentComponent } from './header-component/header-component.component';
-import { HearderComponentComponent } from './hearder-component/hearder-component.component';
-import { DiplayBoardComponentComponent } from './diplay-board-component/diplay-board-component.component';
+import { DisplayBoardComponentComponent } from './display-board-component/diplay-board-component.component';
+import { HeaderComponentComponent } from './header/hearder-component.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponentComponent,
     DisplayBoardComponentComponent,
-    HeaderComponentComponent,
-    HearderComponentComponent,
-    DiplayBoardComponentComponent
+    HeaderComponentComponent
   ],
   imports: [
     HttpClientModule,
